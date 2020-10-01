@@ -23,7 +23,7 @@ reduce：进行计算求和使用。
 ```
     const arr =[1,2,3]
     arr.reduce((s,v,i)=>{
-        console.log(s)  // 第一个值
+        console.log(s)  // 累加值
         console.log(v)  // 值
         console.log(i)  // 下标
     })
